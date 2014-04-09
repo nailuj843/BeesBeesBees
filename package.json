@@ -1,0 +1,14 @@
+{
+  "name": "beesbeesbees",
+  "version": "0.0.0",
+  "description": "Pseudoclassical bees",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackreactor/beesbeesbees"
+  },
+  "author": "Svnh",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/hackreactor/beesbeesbees/issues"
+  }
+}
