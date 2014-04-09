@@ -1,11 +1,9 @@
-var Grub = function(food) {
+var Grub = function() {
   this.age = 0;
   this.color = 'pink';
-  this.food = food;
+  this.food = 'jelly';
 };
 
 Grub.prototype.eat = function() {
   console.log('Mmmmmmmmm ' + this.food);
 };
-
-module.exports = Grub;

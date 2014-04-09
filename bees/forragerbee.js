@@ -1,26 +1,15 @@
-var _ = require('../lib/underscore');
-var Bee = require('./bee.js');
+var ForragerBee = function() {
+  Bee.call(this);
 
-var ForragingBee = function() {
   this.age = 10;
-  this.fly = true;
+  this.canFly = true;
   this.job = 'find pollen';
   this.treasureChest = [];
-
-  Bee.call(this);
 };
 
-ForragingBee.prototype = Object.create(Bee.prototype);
-ForragingBee.prototype.constructor = ForragingBee;
+ForragerBee.prototype = Object.create(Bee.prototype);
+ForragerBee.prototype.constructor = ForragerBee;
 
-ForragingBee.prototype.forrage = function(treasure) {
-  console.log('I found ' + treasure + '!!!');
-  
-  this.treasureChest.push(treasure);
-  
-  _.each(this.treasureChest, function(item) {
-    console.log('I now have: ' + item);
-  });
+ForragerBee.prototype.forrage = function(treasure) {
+  this.treasureChest.push(treasure);  
 };
-
-module.exports = ForragingBee;

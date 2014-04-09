@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="lib/mocha/mocha.css" />
+    <script src="lib/mocha/mocha.js"></script>
+    <script src="lib/chai/chai.js"></script>
+    <script src="lib/underscore/underscore.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/requirejs/require.js"></script>
+    <script>
+      mocha.setup('bdd');
+      window.expect = chai.expect;
+      $(function() {
+        window.mochaPhantomJS ? mochaPhantomJS.run() : mocha.run();
+      });
+    </script>
+    <script type="text/javascript" src="test/verifyClass.js"></script>
+
+    <!-- source files -->
+    <script type="text/javascript" src="bees/grub.js"></script>
+    <script type="text/javascript" src="bees/bee.js"></script>
+    <script type="text/javascript" src="bees/honeybee.js"></script>
+    <script type="text/javascript" src="bees/forragerbee.js"></script>
+    <script type="text/javascript" src="bees/retiredforrager.js"></script>
+
+    <!-- spec files -->
+    <script type="text/javascript" src="test/grubSpec.js"></script>
+    <script type="text/javascript" src="test/beeSpec.js"></script>
+    <script type="text/javascript" src="test/honeybeeSpec.js"></script>
+    <script type="text/javascript" src="test/forragerbeeSpec.js"></script>
+    <script type="text/javascript" src="test/retiredforragerSpec.js"></script>
+
+  </head>
+  <body>
+    <div id="mocha"></div>
+  </body>
+</html>

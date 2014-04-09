@@ -1,12 +1,9 @@
-var Bee = require('./bee.js');
-
 var HoneyMakerBee = function() {
-  this.age = 10;
-  this.fly = false;
-  this.job = 'Make honey';
-  this.honeyPot = 0;
+  Bee.call(this);  
 
-  Bee.apply(this, arguments);  
+  this.age = 10;
+  this.job = 'make honey';
+  this.honeyPot = 0;
 };
 
 HoneyMakerBee.prototype = Object.create(Bee.prototype);
@@ -17,7 +14,5 @@ HoneyMakerBee.prototype.makeHoney = function() {
 };
 
 HoneyMakerBee.prototype.giveHoney = function() {
-  this.honeyPot = 0;
+  this.honeyPot--;
 };
-
-module.exports = HoneyMakerBee;
