@@ -32,11 +32,11 @@ describe('HoneyMakerBee class functionality', function() {
 
   /*  New methods and properties  */
 
-  it('should have a `honeyPot` property that is set to `0` when a new HoneyMakerBee is created', function() {
+  it('should have a `honeyPot` property that is set to `0`', function() {
     expect(honeyBee.honeyPot).to.equal(0);
   });
 
-  it('should have a `makeHoney` method that adds `1` to that honeyBee\'s honeyPot when called', function() {
+  it('should have a `makeHoney` method that adds `1` to that honeyBee\'s honeyPot', function() {
     expect(honeyBee.makeHoney).to.be.a('function');
     honeyBee.makeHoney();
     expect(honeyBee.honeyPot).to.equal(1);
@@ -44,7 +44,7 @@ describe('HoneyMakerBee class functionality', function() {
     expect(honeyBee.honeyPot).to.equal(2);
   });
 
-  it('should have a `giveHoney` method that subtracts `1` to that honeyBee\'s honeyPot when called', function() {
+  it('should have a `giveHoney` method that subtracts `1` from that honeyBee\'s honeyPot', function() {
     expect(honeyBee.giveHoney).to.be.a('function');
     honeyBee.makeHoney();
     honeyBee.makeHoney();
