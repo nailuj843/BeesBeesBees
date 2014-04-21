@@ -1,9 +1,9 @@
-describe('RetiredForragerBee class functionality', function() {
+describe('RetiredForagerBee class functionality', function() {
   
-  verifyClass(RetiredForragerBee).followsPattern('pseudoclassical', {}, false);
+  verifyClass(RetiredForagerBee).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
-    retiredForrager = new RetiredForragerBee();
+    retiredForrager = new RetiredForagerBee();
   });
 
   /*  Overwrite methods from superclass  */

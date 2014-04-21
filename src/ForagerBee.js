@@ -1,4 +1,4 @@
-var ForragerBee = function() {
+var ForagerBee = function() {
   /* START SOLUTION */
   Bee.call(this);
 
@@ -9,10 +9,10 @@ var ForragerBee = function() {
   /* END SOLUTION */
 };
 /* START SOLUTION */
-ForragerBee.prototype = Object.create(Bee.prototype);
-ForragerBee.prototype.constructor = ForragerBee;
+ForagerBee.prototype = Object.create(Bee.prototype);
+ForagerBee.prototype.constructor = ForagerBee;
 
-ForragerBee.prototype.forrage = function(treasure) {
+ForagerBee.prototype.forrage = function(treasure) {
   this.treasureChest.push(treasure);  
 };
 /* END SOLUTION */
