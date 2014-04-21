@@ -77,8 +77,8 @@ ForragerBee
   - [ ] a `forrage` method that allows the bee to add a `treasure` to the `treasureChest`
 
 RetiredForragerBee
-- [ ] Create a ForragerBee class, in pseudoclassical style, with:
-  - [ ] `call` the Grub superclass
+- [ ] Create a RetiredForragerBee class, in pseudoclassical style, with:
+  - [ ] `call` the ForragerBee superclass
   - [ ] set the prototype
   - [ ] set the constructor
   - [ ] an `age` property that is set to `40`
