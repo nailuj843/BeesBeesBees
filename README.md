@@ -5,7 +5,7 @@ BeesBeesBees
 
 ### Pseudoclassical bees - get ready to learn some science
 
-A bee at any point in its lifetime has a specific set of tasks and features that are unique to that lifestage. In this repo, you will create bees of many lifestages while practicing the pseudoclassical instatiation pattern, inheritance, and subclassing.
+Bees (the most noble of insects) progress through specific developmental stages over the course of their lifetimes. Each phase has specific traits and behaviors associated with it that are unique to that lifestage. In this repo, you will create bees of many lifestages while practicing the pseudoclassical instatiation pattern, inheritance, and subclassing.
 
 ### Class Structure
 
@@ -16,7 +16,7 @@ A bee at any point in its lifetime has a specific set of tasks and features that
     │       └── ForragerBee
     │          └── RetiredForragerBee
 
-As you can see in the diagram above, all bees start out as Grub, grow up into Bees and are then assigned their specific jobs and tasks among other charactersitics. This means that characteristics are inhereted from the classes above (although they can be modified on the current class level). 
+As you can see in the diagram above, all bees start out as a Grub, grow into Bees and are then assigned their specific jobs and tasks among other charactersitics. This means that characteristics are inhereted from the classes above (although they can be modified on the current class level). 
 
 ### Resources
 * [Giraffe Maker - a Hack Reactor repo on inheritance patterns](https://github.com/hackreactor/giraffeMaker)
@@ -26,9 +26,9 @@ As you can see in the diagram above, all bees start out as Grub, grow up into Be
 
 ### Begin
 
-Start the repo in grub.js to create the first class, which will be the superclass for all kinds of bees that come after. Then move through the repo in order of the tree above, passing all of the Specs in SepcRunner.html--which you can run by simply opening it in your browser and refreshing the page whenever you make changes. 
+Build your first class in Grub.js. Grub will act as the superclass for all other types of bees. Work through the files, following the order of the tree above, making sure to pass all of the Specs in `test/index.html` --which you can run by simply opening it in your browser and refreshing the page whenever you make changes. 
 
-Note: this assignement should be written in pseudoclassical style.
+Note: this assignement must be written in pseudoclassical style.
 
 Grub
 - [ ] Create a Grub class, in pseudoclassical style, with:
