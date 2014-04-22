@@ -13,8 +13,8 @@ Bees (the most noble of insects) progress through specific developmental stages 
     ├── Grub
     │   └── Bee
     │       ├── HoneyMakerBee
-    │       └── ForragerBee
-    │          └── RetiredForragerBee
+    │       └── ForagerBee
+    │          └── RetiredForagerBee
 
 As you can see in the diagram above, all bees start out as a Grub, grow into Bees and are then assigned their specific jobs and tasks among other charactersitics. This means that characteristics are inhereted from the classes above (although they can be modified on the current class level). 
 
@@ -69,8 +69,8 @@ Note: this assignement must be written in pseudoclassical style.
   - [ ] a `makeHoney` method that adds `1` to that honeyBee\'s honeyPot
   - [ ] a `giveHoney` method that subtracts `1` from that honeyBee\'s honeyPot
 
-#### ForragerBee
-- [ ] Create a Bee class, in pseudoclassical style, with:
+#### ForagerBee
+- [ ] Create a ForagerBee class, in pseudoclassical style, with:
   - [ ] `call` the Bee superclass
   - [ ] set the prototype
   - [ ] set the constructor
@@ -83,9 +83,9 @@ Note: this assignement must be written in pseudoclassical style.
   - [ ] a `treasureChest` property that is set to an empty array `[]`
   - [ ] a `forrage` method that allows the bee to add a `treasure` to the `treasureChest`
 
-#### RetiredForragerBee
-- [ ] Create a RetiredForragerBee class, in pseudoclassical style, with:
-  - [ ] `call` the ForragerBee superclass
+#### RetiredForagerBee
+- [ ] Create a RetiredForagerBee class, in pseudoclassical style, with:
+  - [ ] `call` the ForagerBee superclass
   - [ ] set the prototype
   - [ ] set the constructor
   - [ ] an `age` property that is set to `40`
@@ -95,5 +95,5 @@ Note: this assignement must be written in pseudoclassical style.
   - [ ] a `forrage` method that returns "I am too old, let me play cards instead"
   - [ ] a `food` property that is inhereted from grub
   - [ ] an `eat` method that is inhereted from grub
-  - [ ] a `treasureChest` property inhereted from forragerBee that is set to an empty array `[]`
+  - [ ] a `treasureChest` property inhereted from ForagerBee that is set to an empty array `[]`
   - [ ] an always winning `gamble` method that allows the bee to add a `treasure` to the `treasureChest`
