@@ -35,7 +35,9 @@ As you can see in the diagram above, all bees start out as a Grub, grow into Bee
 
 Build your first class in Grub.js. Grub will act as the superclass for all other types of bees. Work through the repo in the order specified below, making sure to pass all of the Specs in `test/index.html` --which you can run by simply opening it in your browser and refreshing the page whenever you make changes. 
 
-Note: this assignement must be written in pseudoclassical style.
+#### Things To Note:
+- This assignement must be written in pseudoclassical style.
+- Although there are multiple tests for each class, you will only be able to see one test at a time. As soon as one test fails the spec runner stops running and you must pass the current test to continue.
 
 #### Grub
 - [ ] Create a Grub class, in pseudoclassical style, with:
