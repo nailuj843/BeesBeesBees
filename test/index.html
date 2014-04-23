@@ -13,7 +13,12 @@
     <script src="../bower_components/chai/chai.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script>mocha.setup('bdd')</script>
+    <script>
+      mocha.setup({
+        'ui': 'bdd',
+        'bail': true
+      });
+    </script>
     <script>window.expect = chai.expect</script>
 
     <!-- source files -->
@@ -32,6 +37,7 @@
     <script type="text/javascript" src="RetiredForagerBee.js"></script>
 
     <script>
+
       $(function() {
         window.mochaPhantomJS ? mochaPhantomJS.run() : mocha.run();
       });
