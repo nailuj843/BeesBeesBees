@@ -16,7 +16,7 @@ describe('HoneyMakerBee class functionality', function() {
     expect(honeyBee.job).to.equal('make honey')
   });
 
-  /*  Inhereted from superclass  */
+  /*  Inherited from superclass  */
 
   it('should have a color property inhereted from `bee` that is set to `yellow`', function() {
     expect(honeyBee.color).to.equal('yellow');

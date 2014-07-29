@@ -24,11 +24,11 @@ describe('RetiredForagerBee class functionality', function() {
     expect(retiredForager.color).to.equal('grey');
   });
 
-  it('should have a `forrage` method that returns "I am too old, let me play cards instead"', function() {
-    expect(retiredForager.forrage()).to.equal('I am too old, let me play cards instead');
+  it('should have a `forage` method that returns "I am too old, let me play cards instead"', function() {
+    expect(retiredForager.forage()).to.equal('I am too old, let me play cards instead');
   });
 
-  /*  Inhereted from superclass  */
+  /*  Inherited from superclass  */
 
   it('should have a `food` property that is inhereted from grub', function() {
     expect(retiredForager.food).to.equal('jelly');
@@ -38,7 +38,7 @@ describe('RetiredForagerBee class functionality', function() {
     expect(retiredForager.eat).to.be.a('function');
   });
 
-  it('should have a `treasureChest` property inhereted from forragerBee that is set to an empty array `[]`', function() {
+  it('should have a `treasureChest` property inhereted from foragerBee that is set to an empty array `[]`', function() {
     expect(retiredForager.treasureChest).to.be.a('array');
   });
 

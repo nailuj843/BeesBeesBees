@@ -16,7 +16,7 @@ describe('Bee class functionality', function() {
     expect(bee.color).to.equal('yellow');
   });
 
-  /*  Inhereted from superclass  */
+  /*  Inherited from superclass  */
 
   it('should have a `food` property that is inhereted from grub', function() {
     expect(bee.food).to.equal('jelly');
