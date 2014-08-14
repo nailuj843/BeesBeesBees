@@ -27,3 +27,9 @@ node_modules
 
 # bower dependencies
 bower_components
+
+# Floobits
+.floo
+.floobit
+.floo
+.flooignore
