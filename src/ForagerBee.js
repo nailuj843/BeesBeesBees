@@ -12,7 +12,7 @@ var ForagerBee = function() {
 ForagerBee.prototype = Object.create(Bee.prototype);
 ForagerBee.prototype.constructor = ForagerBee;
 
-ForagerBee.prototype.forrage = function(treasure) {
-  this.treasureChest.push(treasure);  
+ForagerBee.prototype.forage = function(treasure) {
+  this.treasureChest.push(treasure);
 };
 /* END SOLUTION */

@@ -1,5 +1,5 @@
 describe('RetiredForagerBee class functionality', function() {
-  
+
   verifyClass(RetiredForagerBee).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
@@ -7,7 +7,7 @@ describe('RetiredForagerBee class functionality', function() {
   });
 
   /*  Overwrite methods from superclass  */
-  
+
   it('should have an `age` property that is set to `40`', function() {
     expect(retiredForager.age).to.equal(40);
   });
@@ -30,15 +30,15 @@ describe('RetiredForagerBee class functionality', function() {
 
   /*  Inherited from superclass  */
 
-  it('should have a `food` property that is inhereted from grub', function() {
+  it('should have a `food` property that is inherited from grub', function() {
     expect(retiredForager.food).to.equal('jelly');
   });
 
-  it('should have an `eat` method that is inhereted from grub', function() {
+  it('should have an `eat` method that is inherited from grub', function() {
     expect(retiredForager.eat).to.be.a('function');
   });
 
-  it('should have a `treasureChest` property inhereted from foragerBee that is set to an empty array `[]`', function() {
+  it('should have a `treasureChest` property inherited from foragerBee that is set to an empty array `[]`', function() {
     expect(retiredForager.treasureChest).to.be.a('array');
   });
 

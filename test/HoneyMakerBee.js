@@ -1,5 +1,5 @@
 describe('HoneyMakerBee class functionality', function() {
-  
+
   verifyClass(HoneyMakerBee).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
@@ -7,7 +7,7 @@ describe('HoneyMakerBee class functionality', function() {
   });
 
   /*  Overwrite methods from superclass  */
-  
+
   it('should have an age property that is set to `10`', function() {
     expect(honeyBee.age).to.equal(10);
   });
@@ -18,15 +18,15 @@ describe('HoneyMakerBee class functionality', function() {
 
   /*  Inherited from superclass  */
 
-  it('should have a color property inhereted from `bee` that is set to `yellow`', function() {
+  it('should have a color property inherited from `bee` that is set to `yellow`', function() {
     expect(honeyBee.color).to.equal('yellow');
   });
 
-  it('should have a food property that is inhereted from grub', function() {
+  it('should have a food property that is inherited from grub', function() {
     expect(honeyBee.food).to.equal('jelly');
   });
 
-  it('should have an eat method that is inhereted from grub', function() {
+  it('should have an eat method that is inherited from grub', function() {
     expect(honeyBee.eat).to.be.a('function');
   });
 
