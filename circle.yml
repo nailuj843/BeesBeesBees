@@ -7,7 +7,7 @@ dependencies:
     - git clone git@github.com:hackreactor-labs/scripts.git ../scripts
 test:
   override:
-    - echo "skipping tests..."
+    - echo "skipping tests...."
 deployment:
   master:
     branch: master
