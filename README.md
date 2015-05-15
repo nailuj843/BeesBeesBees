@@ -21,7 +21,6 @@ As you can see in the diagram above, all bees start out as a Grub, grow into a B
 ### Resources
 * [Giraffe Maker - a Hack Reactor repo on inheritance patterns](https://github.com/hackreactor/giraffeMaker)
 * [Pseudoclassical Inheritance](https://www.inkling.com/read/javascript-good-parts-douglas-crockford-1st/chapter-5/pseudoclassical)
-* [Object.create](http://dailyjs.com/2012/06/04/js101-object-create/)
 
 
 ## Basic requirements:
