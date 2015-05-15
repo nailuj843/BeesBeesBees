@@ -16,7 +16,7 @@ Bees (the most noble of insects) progress through specific developmental stages 
     │       └── ForagerBee
     │          └── RetiredForagerBee
 
-As you can see in the diagram above, all bees start out as a Grub, grow into Bees and are then assigned their specific jobs and tasks among other charactersitics. This means that characteristics are inherited from the classes above (although they can be modified on the current class level).
+As you can see in the diagram above, all bees start out as a Grub, grow into a Bee and are then assigned its specific jobs and tasks among its other charactersitics. This means that characteristics are inherited from the classes above (although they can be modified on the current class level).
 
 ### Resources
 * [Giraffe Maker - a Hack Reactor repo on inheritance patterns](https://github.com/hackreactor/giraffeMaker)
