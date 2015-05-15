@@ -1,5 +1,4 @@
-Taxonomy
-============
+# Taxonomy
 
 ![](http://i.imgur.com/qrLEV.gif)
 
