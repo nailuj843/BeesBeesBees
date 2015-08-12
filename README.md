@@ -21,7 +21,7 @@ As you can see in the diagram above, all bees start out as a Grub, grow into a B
 * [Giraffe Maker - a Hack Reactor repo on inheritance patterns](https://github.com/hackreactor/giraffeMaker)
 * [Object.create](http://dailyjs.com/2012/06/03/js101-object-create/)
 
-## Basic requirements:
+## Bare minimum requirements
 
 ### Bower
 
