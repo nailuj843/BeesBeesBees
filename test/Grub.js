@@ -1,6 +1,8 @@
-describe('Grub class functionality', function() {
+import { expect } from 'chai';
+import Grub from '../src/Grub';
 
-  verifyClass(Grub).followsPattern('pseudoclassical', {}, false);
+describe('Grub class functionality', function() {
+  let grub;
 
   beforeEach(function() {
     grub = new Grub();

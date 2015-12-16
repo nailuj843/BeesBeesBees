@@ -1,3 +1,5 @@
+import ForagerBee from './ForagerBee';
+
 var RetiredForagerBee = function() {
   /* START SOLUTION */
   ForagerBee.call(this);
@@ -12,7 +14,7 @@ var RetiredForagerBee = function() {
 RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
 RetiredForagerBee.prototype.constructor = RetiredForagerBee;
 
-RetiredForagerBee.prototype.forrage = function() {
+RetiredForagerBee.prototype.forage = function() {
   return 'I am too old, let me play cards instead';
 };
 
@@ -20,3 +22,5 @@ RetiredForagerBee.prototype.gamble= function() {
   this.treasureChest.push('Pollen chips');
 };
 /* END SOLUTION */
+
+export default RetiredForagerBee;

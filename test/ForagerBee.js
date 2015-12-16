@@ -1,6 +1,8 @@
-describe('ForagerBee class functionality', function() {
+import { expect } from 'chai';
+import ForagerBee from '../src/ForagerBee';
 
-  verifyClass(ForagerBee).followsPattern('pseudoclassical', {}, false);
+describe('ForagerBee class functionality', function() {
+  let foragerBee;
 
   beforeEach(function() {
     foragerBee = new ForagerBee();

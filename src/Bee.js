@@ -1,3 +1,5 @@
+import Grub from './Grub'
+
 var Bee = function() {
   /* START SOLUTION */
   Grub.call(this);
@@ -11,3 +13,5 @@ var Bee = function() {
 Bee.prototype = Object.create(Grub.prototype);
 Bee.prototype.constructor = Bee;
 /* END SOLUTION */
+
+export default Bee;

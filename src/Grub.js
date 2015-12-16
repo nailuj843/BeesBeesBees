@@ -10,3 +10,5 @@ Grub.prototype.eat = function() {
   console.log('Mmmmmmmmm ' + this.food);
 };
 /* END SOLUTION */
+
+export default Grub;

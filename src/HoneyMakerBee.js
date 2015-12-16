@@ -1,3 +1,5 @@
+import Bee from './Bee'
+
 var HoneyMakerBee = function() {
   /* START SOLUTION */
   Bee.call(this);  
@@ -19,3 +21,5 @@ HoneyMakerBee.prototype.giveHoney = function() {
   this.honeyPot--;
 };
 /* END SOLUTION */
+
+export default HoneyMakerBee;

@@ -1,3 +1,5 @@
+import Bee from './Bee'
+
 var ForagerBee = function() {
   /* START SOLUTION */
   Bee.call(this);
@@ -16,3 +18,5 @@ ForagerBee.prototype.forage = function(treasure) {
   this.treasureChest.push(treasure);
 };
 /* END SOLUTION */
+
+export default ForagerBee;

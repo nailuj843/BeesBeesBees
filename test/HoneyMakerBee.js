@@ -1,6 +1,8 @@
-describe('HoneyMakerBee class functionality', function() {
+import { expect } from 'chai';
+import HoneyMakerBee from '../src/HoneyMakerBee';
 
-  verifyClass(HoneyMakerBee).followsPattern('pseudoclassical', {}, false);
+describe('HoneyMakerBee class functionality', function() {
+  let honeyBee;
 
   beforeEach(function() {
     honeyBee = new HoneyMakerBee();
