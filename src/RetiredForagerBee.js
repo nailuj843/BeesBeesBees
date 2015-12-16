@@ -1,26 +1,28 @@
 import ForagerBee from './ForagerBee';
 
-var RetiredForagerBee = function() {
-  /* START SOLUTION */
-  ForagerBee.call(this);
-  
-  this.age = 40;
-  this.color = 'grey';
-  this.canFly = false;
-  this.job = 'gamble';
-  /* END SOLUTION */
-};
 /* START SOLUTION */
-RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
-RetiredForagerBee.prototype.constructor = RetiredForagerBee;
+class RetiredForagerBee extends ForagerBee {
+  constructor() {
+    super();
 
-RetiredForagerBee.prototype.forage = function() {
-  return 'I am too old, let me play cards instead';
-};
+    this.age = 40;
+    this.color = 'grey';
+    this.canFly = false;
+    this.job = 'gamble';
+  }
 
-RetiredForagerBee.prototype.gamble= function() {
-  this.treasureChest.push('Pollen chips');
+  forage() {
+    return 'I am too old, let me play cards instead';
+  }
+
+  gamble() {
+    this.treasureChest.push('Pollen chips');
+  }
+}
+/* ELSE
+class RetiredForagerBee {
+  // TODO..
 };
-/* END SOLUTION */
+END SOLUTION */
 
 export default RetiredForagerBee;

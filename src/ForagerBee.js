@@ -1,22 +1,24 @@
 import Bee from './Bee'
 
-var ForagerBee = function() {
-  /* START SOLUTION */
-  Bee.call(this);
-
-  this.age = 10;
-  this.canFly = true;
-  this.job = 'find pollen';
-  this.treasureChest = [];
-  /* END SOLUTION */
-};
 /* START SOLUTION */
-ForagerBee.prototype = Object.create(Bee.prototype);
-ForagerBee.prototype.constructor = ForagerBee;
+class ForagerBee extends Bee {
+  constructor() {
+    super();
 
-ForagerBee.prototype.forage = function(treasure) {
-  this.treasureChest.push(treasure);
+    this.age = 10;
+    this.canFly = true;
+    this.job = 'find pollen';
+    this.treasureChest = [];
+  }
+
+  forage(treasure) {
+    this.treasureChest.push(treasure);
+  }
 };
-/* END SOLUTION */
+/* ELSE
+class ForagerBee {
+  // TODO..
+};
+END SOLUTION */
 
 export default ForagerBee;

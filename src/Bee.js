@@ -1,17 +1,19 @@
 import Grub from './Grub'
 
-var Bee = function() {
-  /* START SOLUTION */
-  Grub.call(this);
-
-  this.age = 5;
-  this.job = 'Keep on growing';
-  this.color = 'yellow';
-  /* END SOLUTION */
-};
 /* START SOLUTION */
-Bee.prototype = Object.create(Grub.prototype);
-Bee.prototype.constructor = Bee;
-/* END SOLUTION */
+class Bee extends Grub {
+  constructor() {
+    super();
+
+    this.age = 5;
+    this.job = 'Keep on growing';
+    this.color = 'yellow';
+  }
+};
+/* ELSE
+class Bee {
+  // TODO..
+};
+END SOLUTION */
 
 export default Bee;
