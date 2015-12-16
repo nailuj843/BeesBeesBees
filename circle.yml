@@ -1,6 +1,6 @@
 machine:
   environment:
-    DOWNSTREAM: hackreactor/taxonomy
+    DOWNSTREAM: hackreactor/beesbeesbees
 dependencies:
   pre:
     - npm install -g hackreactor-labs/problemify
