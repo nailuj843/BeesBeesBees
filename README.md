@@ -2,7 +2,7 @@
 
 ![](http://i.imgur.com/qrLEV.gif)
 
-### ES6 Bees - get ready to learn some science
+### Bees - get ready to learn some science, ES6 style!
 
 Bees (the most noble of insects) progress through specific developmental stages over the course of their lifetimes. Each phase has specific traits and behaviors associated with it that are unique to that lifestage. In this repo, you will create bees of many lifestages while practicing the pseudoclassical instatiation pattern, inheritance, and subclassing.
 
