@@ -30,9 +30,11 @@ One exciting feature is the inclusion of a `class` keyword! This is a big change
 
 ### npm
 
-If you don't know about npm yet, don't worry. Just know that when `npm install` is run from the command line, the packages listed in package.json will be automatically installed to `node_modules`.
-  - [ ] If you don't have npm installed on your system, install it by running `brew install node`
-  - [ ] Use npm to install the dependencies by running the following command from the root directory of the repo: `npm install`.
+[npm](https://www.npmjs.com/) is a package manager that comes bundled with Node.js and makes it easy for JavaScript developers to share and reuse code. It takes care of installing, updating, and managing dependencies for applications. You'll make extensive use of npm throughout this course and in the rest of your JavaScript career. Don't worry too much about it now, but we need it to install some dependencies for this sprint.
+
+To check if you have npm installed, run `npm -v` in your terminal. If you see a version number, you're all set. If you don't, download and install [Node](https://nodejs.org/en/).
+
+Once you have npm installed, run `npm install` from the command line while inside the root directory of this repo. This will install the packages listed in `package.json` to a folder called `node_modules`.
 
 ### Babel
 
@@ -43,19 +45,20 @@ If you don't know about npm yet, don't worry. Just know that when `npm install` 
 Build your first class in Grub.js. Grub will act as the superclass for all other types of bees. Work through the repo in the order specified below, making sure to pass all of the specs in `test/` - which you can run by typing `npm test` in your terminal.
 
 #### Things To Note:
-- This assignment must be written with ES6 classes. Don't forget about `extends` and `super`
+- This assignment must be written with ES6 classes by using the new `class`, `extends`, and `super` keywords
 - Although there are multiple tests for each class, you will only be able to see one test at a time. As soon as one test fails the spec runner stops running and you must pass the current test to continue.
+- Babel gives you access to [all of the ES6 features](https://ponyfoo.com/articles/es6). Feel free to experiment with unfamiliar features!
 
 #### Grub
-- [ ] Create a Grub class, in ES6 class style, with:
+- [ ] Create a Grub class, in ES6 style, with:
   - [ ] an `age` property that is set to `0`
   - [ ] a `color` property that is set to `pink`
   - [ ] a `food` property that is set to `jelly`
   - [ ] an `eat` method
 
 #### Bee
-- [ ] Create a Bee class, in ES6 class style, with:
-  - [ ] `extends` the Grub superclass
+- [ ] Create a Bee class, in ES6 style, with:
+  - [ ] the Grub superclass
   - [ ] an `age` property that is set to `5`
   - [ ] a `color` property that is set to `yellow`
   - [ ] a `food` property that is inherited from grub
@@ -63,8 +66,8 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
   - [ ] a `job` property that is set to `Keep on growing`
 
 #### HoneyMakerBee
-- [ ] Create a HoneyMakerBee class, in ES6 class style, with:
-  - [ ] `extends` the Bee superclass
+- [ ] Create a HoneyMakerBee class, in ES6 style, with:
+  - [ ] the Bee superclass
   - [ ] an age property that is set to `10`
   - [ ] a job property that is set to `make honey`
   - [ ] a color property inherited from `bee` that is set to `yellow`
@@ -75,8 +78,8 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
   - [ ] a `giveHoney` method that subtracts `1` from that honeyBee's `honeyPot`
 
 #### ForagerBee
-- [ ] Create a ForagerBee class, in ES6 class style, with:
-  - [ ] `extends` the Bee superclass
+- [ ] Create a ForagerBee class, in ES6 style, with:
+  - [ ] the Bee superclass
   - [ ] an age property that is set to `10`
   - [ ] a `job` property that is set to `find pollen`
   - [ ] a `color` property inherited from `bee` that is set to `yellow`
@@ -87,8 +90,8 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
   - [ ] a `forage` method that allows the bee to add a `treasure` to the `treasureChest`
 
 #### RetiredForagerBee
-- [ ] Create a RetiredForagerBee class, in ES6 class style, with:
-  - [ ] `extends` the ForagerBee superclass
+- [ ] Create a RetiredForagerBee class, in ES6 style, with:
+  - [ ] the ForagerBee superclass
   - [ ] an `age` property that is set to `40`
   - [ ] a `job` property that is set to `gamble`
   - [ ] a `canFly` property that is set to `false`
