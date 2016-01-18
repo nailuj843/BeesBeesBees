@@ -46,7 +46,7 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
 
 #### Things To Note:
 - This assignment must be written with ES6 classes by using the new `class`, `extends`, and `super` keywords
-- Although there are multiple tests for each class, you will only be able to see one test at a time. As soon as one test fails the spec runner stops running and you must pass the current test to continue.
+- Although there are multiple tests for each class, you will only be able to see one test at a time. As soon as one test fails, `npm test` stops running and you must pass the current test to continue.
 - Babel gives you access to [all of the ES6 features](https://ponyfoo.com/articles/es6). Feel free to experiment with unfamiliar features!
 
 #### Grub

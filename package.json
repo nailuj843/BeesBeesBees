@@ -5,7 +5,7 @@
   "author": "Hack Reactor <curriculum.team@hackreactor.com>",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-core/register"
+    "test": "mocha --require babel-core/register --bail"
   },
   "repository": {
     "type": "git",
