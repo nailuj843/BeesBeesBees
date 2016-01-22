@@ -24,9 +24,12 @@ As you can see in the diagram above, all bees start out as a Grub, grow into a B
 
 ## Bare minimum requirements
 
-The next version of JavaScript, implemented from the EMCAScript 6 specification, is here! It is often referred to as ES6 or ES2015. ES6 brings [a lot of exciting new features](https://ponyfoo.com/articles/es6) to the JavaScript language. It's important to know that ES6 is just the *specification* of the language, or simply a list of rules. It's still up to various engines (V8 - Chrome/Node, SpiderMonkey - Firefox) to *implement* these rules. Engine maintainers are working hard to implement these new features as fast as they can, but it will take some time before every environment supports the entire ES6 spec.
+### ES6
+The ECMAScript specification is a scripting language specification upon which JavaScript implementations (such as those found in web browsers like Chrome) are based. In June 2015, the 6th edition of the ECMAScript standard was finalized, and is commonly referred to as ES6.
 
-One exciting feature is the inclusion of a `class` keyword! This is a big change for engineers who write object-oriented code because it makes JavaScript look and feel more like a traditional class based language even though it's really just syntactic sugar on top of the pseudoclassical instantiation pattern you are familiar with. ES6 makes subclassing much easier as well with the introduction of the `extends` keyword.
+ES6 introduces a wealth of new features to JavaScript while being entirely reverse-compatible with older JavaScript. Even the most popular of web browsers like Chrome have a ton of work to do before all ES6 features are available, however, a lot of developers are using ES6 features and you should look forward to seeing more and more of ES6 in the next several years.
+
+One exciting feature is the inclusion of a `class` keyword! This is a big change for engineers who write object-oriented code because it makes JavaScript look and feel more like a traditional class based language even though it's really just syntactic sugar on top of the pseudoclassical instantiation pattern you are familiar with. ES6 makes subclassing much easier as well with the introduction of the `extends` keyword. This sprint is designed to get you comfortable with this new instantiation pattern.
 
 ### npm
 
