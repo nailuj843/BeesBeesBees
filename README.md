@@ -57,7 +57,7 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
   - [ ] an `age` property that is set to `0`
   - [ ] a `color` property that is set to `pink`
   - [ ] a `food` property that is set to `jelly`
-  - [ ] an `eat` method
+  - [ ] an `eat` method that returns `'Mmmmmmmmm jelly'`
 
 #### Bee
 - [ ] Create a Bee class, in ES6 style, with:
