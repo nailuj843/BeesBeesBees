@@ -4,7 +4,7 @@
 
   "syllabus": [
 
-    { "title": "6ees6ees6ees Repository", "type": "download", "id": "exercise", "folder": "code", "transform": ["pro6lemify-export"] }
+    { "title": "6ees6ees6ees Repository", "type": "download", "id": "exercise", "folder": "code", "transform": ["problemify-export"] }
 
   ],
 
