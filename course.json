@@ -2,13 +2,14 @@
   "name": "6ees6ees6ees",
   "description": "Get some practice with ES6 subclassing by creating a hive of bees.",
 
-  "syllabus": [
-
-    { "title": "6ees6ees6ees Repository", "type": "download", "id": "exercise", "folder": "code", "transform": ["problemify-export"] }
-
-  ],
-
   "phases": {
+
+    "Code": [
+
+      { "title": "6ees6ees6ees Repository", "type": "download", "id": "exercise", "folder": "code", "transform": ["problemify-export"] }
+
+    ],
+
     "Sprint Solution": [
       { "title": "Solution Code", "type": "download", "id": "solution", "folder": "code", "transform": ["problemify-solve"] }
     ]
