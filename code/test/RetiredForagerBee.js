@@ -1,8 +1,5 @@
-import { expect } from 'chai';
-import RetiredForagerBee from '../src/RetiredForagerBee';
-
 describe('RetiredForagerBee class functionality', () => {
-  let retiredForagerBee;
+  var retiredForagerBee;
 
   beforeEach(() => retiredForagerBee = new RetiredForagerBee());
 

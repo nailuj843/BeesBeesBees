@@ -1,8 +1,5 @@
-import { expect } from 'chai';
-import HoneyMakerBee from '../src/HoneyMakerBee';
-
 describe('HoneyMakerBee class functionality', () => {
-  let honeyBee;
+  var honeyBee;
 
   beforeEach(() => honeyBee = new HoneyMakerBee());
 

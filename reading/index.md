@@ -19,29 +19,23 @@ As you can see in the diagram above, all bees start out as a Grub, grow into a B
 
 ### Resources
 * [ES6 Classes in Depth](https://ponyfoo.com/articles/es6-classes-in-depth)
-* [ES6 Modules in Depth](https://hacks.mozilla.org/2015/08/es6-in-depth-modules/)
-* [Exploring ES6](http://exploringjs.com/es6/ch_classes.html)
 
 ## Bare minimum requirements
 
+### Bower
+
+- Don't worry for now about how Bower works. Just know that when `bower install` is run from the command line, the packages listed in bower.json will be automatically installed to `client/bower_components`.
+  - [ ] If you don't have npm installed on your system, install it by running `brew install node`
+  - [ ] Install Bower by running the following command `npm install -g bower`.
+  - [ ] Use bower to install the client-side dependancies by running the following command from the root directory of the repo: `bower install`.
+
 ### ES6
+
 The ECMAScript specification is a scripting language specification upon which JavaScript implementations (such as those found in web browsers like Chrome) are based. In June 2015, the 6th edition of the ECMAScript standard was finalized, and is commonly referred to as ES6.
 
 ES6 introduces a wealth of new features to JavaScript while being entirely reverse-compatible with older JavaScript. Even the most popular of web browsers like Chrome have a ton of work to do before all ES6 features are available, however, a lot of developers are using ES6 features and you should look forward to seeing more and more of ES6 in the next several years.
 
 One exciting feature is the inclusion of a `class` keyword! This is a big change for engineers who write object-oriented code because it makes JavaScript look and feel more like a traditional class based language even though it's really just syntactic sugar on top of the pseudoclassical instantiation pattern you are familiar with. ES6 makes subclassing much easier as well with the introduction of the `extends` keyword. This sprint is designed to get you comfortable with this new instantiation pattern.
-
-### npm
-
-[npm](https://www.npmjs.com/) is a package manager that comes bundled with Node.js and makes it easy for JavaScript developers to share and reuse code. It takes care of installing, updating, and managing dependencies for applications. You'll make extensive use of npm throughout this course and in the rest of your JavaScript career. Don't worry too much about it now, but we need it to install some dependencies for this sprint.
-
-To check if you have npm installed, run `npm -v` in your terminal. If you see a version number, you're all set. If you don't, download and install [Node](https://nodejs.org/en/).
-
-Once you have npm installed, run `npm install` from the command line while inside the root directory of this repo. This will install the packages listed in `package.json` to a folder called `node_modules`.
-
-### Babel
-
-[Babel](http://babeljs.io/) is a tool that translates ES6 syntax to ES5. This is great because it lets use all the new ES6 features without needing to wait for javascript engines to implement them. This transformation is done for you under the hood as the tests run.
 
 ### Subclassing
 
@@ -49,8 +43,7 @@ Build your first class in Grub.js. Grub will act as the superclass for all other
 
 #### Things To Note:
 - This assignment must be written with ES6 classes by using the new `class`, `extends`, and `super` keywords
-- Although there are multiple tests for each class, you will only be able to see one test at a time. As soon as one test fails, `npm test` stops running and you must pass the current test to continue.
-- Babel gives you access to [all of the ES6 features](https://ponyfoo.com/articles/es6). Feel free to experiment with unfamiliar features!
+- Although there are multiple tests for each class, you will only be able to see one test at a time. As soon as one test fails the spec runner stops running and you must pass the current test to continue.
 
 #### Grub
 - [ ] Create a Grub class, in ES6 style, with:

@@ -1,5 +1,3 @@
-import Bee from './Bee'
-
 /* START SOLUTION */
 class HoneyMakerBee extends Bee {
   constructor() {
@@ -23,5 +21,3 @@ class HoneyMakerBee {
   // TODO..
 };
 END SOLUTION */
-
-export default HoneyMakerBee;
