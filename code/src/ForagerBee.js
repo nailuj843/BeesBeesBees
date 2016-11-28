@@ -1,5 +1,3 @@
-import Bee from './Bee'
-
 /* START SOLUTION */
 class ForagerBee extends Bee {
   constructor() {
@@ -20,5 +18,3 @@ class ForagerBee {
   // TODO..
 };
 END SOLUTION */
-
-export default ForagerBee;

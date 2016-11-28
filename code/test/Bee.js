@@ -1,8 +1,5 @@
-import { expect } from 'chai';
-import Bee from '../src/Bee';
-
 describe('Bee class functionality', () => {
-  let bee;
+  var bee;
 
   beforeEach(() => bee = new Bee());
 
@@ -28,7 +25,7 @@ describe('Bee class functionality', () => {
 
   /*  New methods and properties  */
 
-  it('should have a `job` property that is set to `keep on growing`', () => {
+  it('should have a `job` property that is set to `Keep on growing`', () => {
     expect(bee.job).to.equal('Keep on growing');
   });
 

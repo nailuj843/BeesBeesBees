@@ -11,5 +11,3 @@ class Grub {
   }
   /* END SOLUTION */
 };
-
-export default Grub;

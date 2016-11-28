@@ -1,8 +1,5 @@
-import { expect } from 'chai';
-import Grub from '../src/Grub';
-
 describe('Grub class functionality', () => {
-  let grub;
+  var grub;
 
   beforeEach(() => grub = new Grub());
 

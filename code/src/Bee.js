@@ -1,5 +1,3 @@
-import Grub from './Grub'
-
 /* START SOLUTION */
 class Bee extends Grub {
   constructor() {
@@ -15,5 +13,3 @@ class Bee {
   // TODO..
 };
 END SOLUTION */
-
-export default Bee;
