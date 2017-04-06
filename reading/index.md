@@ -39,7 +39,7 @@ One exciting feature is the inclusion of a `class` keyword! This is a big change
 
 ### Subclassing
 
-Build your first class in Grub.js. Grub will act as the superclass for all other types of bees. Work through the repo in the order specified below, making sure to pass all of the specs in `test/` - which you can run by typing `npm test` in your terminal.
+Build your first class in Grub.js. Grub will act as the superclass for all other types of bees. Work through the repo in the order specified below, making sure to pass all of the specs in `test/index.html` - which you should open in your browser.
 
 #### Things To Note:
 - This assignment must be written with ES6 classes by using the new `class`, `extends`, and `super` keywords
