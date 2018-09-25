@@ -22,12 +22,11 @@ As you can see in the diagram above, all bees start out as a Grub, grow into a B
 
 ## Bare minimum requirements
 
-### Bower
+### npm
 
-- Don't worry for now about how Bower works. Just know that when `bower install` is run from the command line, the packages listed in bower.json will be automatically installed to `client/bower_components`.
-  - [ ] If you don't have npm installed on your system, install it by running `brew install node`
-  - [ ] Install Bower by running the following command `npm install -g bower`.
-  - [ ] Use bower to install the client-side dependancies by running the following command from the root directory of the repo: `bower install`.
+- Don't worry for now about how npm works. Just know that when `npm install` is run from the command line, the packages listed in `package.json` will be automatically installed to a `node_modules` directory.
+  - [ ] If you don't have npm installed on your system, install it by running `brew install node`. npm is installed for you when you install Node.
+  - [ ] Use npm to install dependancies by running the following command from the root directory of the repo: `npm install`.
 
 ### ES6
 
